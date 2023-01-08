@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiamBreakfastApi.Contracts", "LiamBreakfastApi.Contracts\LiamBreakfastApi.Contracts.csproj", "{5B691ED6-16EE-41CF-9BE8-E8BBE0A8C4F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiamBreakfastApi", "LiamBreakfastApi\LiamBreakfastApi.csproj", "{CBDB1DA5-DBC5-433D-9311-56A7BA63C23F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B691ED6-16EE-41CF-9BE8-E8BBE0A8C4F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B691ED6-16EE-41CF-9BE8-E8BBE0A8C4F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B691ED6-16EE-41CF-9BE8-E8BBE0A8C4F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B691ED6-16EE-41CF-9BE8-E8BBE0A8C4F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBDB1DA5-DBC5-433D-9311-56A7BA63C23F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBDB1DA5-DBC5-433D-9311-56A7BA63C23F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBDB1DA5-DBC5-433D-9311-56A7BA63C23F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBDB1DA5-DBC5-433D-9311-56A7BA63C23F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

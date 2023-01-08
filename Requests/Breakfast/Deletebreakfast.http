@@ -1,0 +1,2 @@
+@id=123
+Delete http://localhost:5241/{(id)}

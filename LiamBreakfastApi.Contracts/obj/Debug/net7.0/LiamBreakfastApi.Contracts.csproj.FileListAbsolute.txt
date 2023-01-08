@@ -1,0 +1,12 @@
+C:\Users\User\Documents\LiamBreakfastApi\LiamBreakfastApi.Contracts\bin\Debug\net7.0\LiamBreakfastApi.Contracts.deps.json
+C:\Users\User\Documents\LiamBreakfastApi\LiamBreakfastApi.Contracts\bin\Debug\net7.0\LiamBreakfastApi.Contracts.dll
+C:\Users\User\Documents\LiamBreakfastApi\LiamBreakfastApi.Contracts\bin\Debug\net7.0\LiamBreakfastApi.Contracts.pdb
+C:\Users\User\Documents\LiamBreakfastApi\LiamBreakfastApi.Contracts\obj\Debug\net7.0\LiamBreakfastApi.Contracts.csproj.AssemblyReference.cache
+C:\Users\User\Documents\LiamBreakfastApi\LiamBreakfastApi.Contracts\obj\Debug\net7.0\LiamBreakfastApi.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\LiamBreakfastApi\LiamBreakfastApi.Contracts\obj\Debug\net7.0\LiamBreakfastApi.Contracts.AssemblyInfoInputs.cache
+C:\Users\User\Documents\LiamBreakfastApi\LiamBreakfastApi.Contracts\obj\Debug\net7.0\LiamBreakfastApi.Contracts.AssemblyInfo.cs
+C:\Users\User\Documents\LiamBreakfastApi\LiamBreakfastApi.Contracts\obj\Debug\net7.0\LiamBreakfastApi.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\LiamBreakfastApi\LiamBreakfastApi.Contracts\obj\Debug\net7.0\LiamBreakfastApi.Contracts.dll
+C:\Users\User\Documents\LiamBreakfastApi\LiamBreakfastApi.Contracts\obj\Debug\net7.0\refint\LiamBreakfastApi.Contracts.dll
+C:\Users\User\Documents\LiamBreakfastApi\LiamBreakfastApi.Contracts\obj\Debug\net7.0\LiamBreakfastApi.Contracts.pdb
+C:\Users\User\Documents\LiamBreakfastApi\LiamBreakfastApi.Contracts\obj\Debug\net7.0\ref\LiamBreakfastApi.Contracts.dll

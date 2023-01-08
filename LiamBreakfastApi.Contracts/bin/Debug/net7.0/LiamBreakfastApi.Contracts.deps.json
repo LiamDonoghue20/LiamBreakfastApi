@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "LiamBreakfastApi.Contracts/1.0.0": {
+        "runtime": {
+          "LiamBreakfastApi.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LiamBreakfastApi.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

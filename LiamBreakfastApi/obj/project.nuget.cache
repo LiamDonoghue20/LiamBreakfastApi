@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "d5Mpwk7S3YgEvFMsr+YPf7F+k+biiSBt3gQM8bJ0JyBVn3m+6Dtd+AfnUAwxgZpfLTygIYFUjQHO9DwLmuS7/A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\Documents\\LiamBreakfastApi\\LiamBreakfastApi\\LiamBreakfastApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
