@@ -20,7 +20,7 @@ public class Breakfast
     public DateTime LastModifiedDateTime { get; }
     public List<string> Savory { get; }
     public List<string> Sweet { get; }
-
+    //breakfast model, all the variables a breakfast must containt
     private Breakfast(
         Guid id,
         string name,
@@ -40,7 +40,7 @@ public class Breakfast
         Savory = savory;
         Sweet = sweet;
     }
-
+    //method to create a breakfast
     public static ErrorOr<Breakfast> Create(
         string name,
         string description,
@@ -51,22 +51,22 @@ public class Breakfast
         Guid? id = null)
     {
         List<Error> errors = new();
-
+        //if the name length is too big or too small, add invalid name error to errors list
         if (name.Length is < MinNameLength or > MaxNameLength)
         {
             errors.Add(Errors.Breakfast.InvalidName);
         }
-
+        //same for description
         if (description.Length is < MinDescriptionLength or > MaxDescriptionLength)
         {
             errors.Add(Errors.Breakfast.InvalidDescription);
-        }
-
+        }   
+        //return errors if there are any
         if (errors.Count > 0)
         {
             return errors;
         }
-
+        //otherwise return the newly created breakfast entity
         return new Breakfast(
             id ?? Guid.NewGuid(),
             name,

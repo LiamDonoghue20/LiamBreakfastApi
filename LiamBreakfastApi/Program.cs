@@ -4,7 +4,7 @@ using LiamBreakfastApi.Services.Breakfasts;
 var builder = WebApplication.CreateBuilder(args);
 {
     builder.Services.AddControllers();
-    builder.Services.AddScoped<BreakfastService, BreakfastService>();
+    builder.Services.AddScoped<IBreakfastService, BreakfastService>();
 
 }
 

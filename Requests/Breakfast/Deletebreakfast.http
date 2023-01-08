@@ -1,2 +1,3 @@
-@id=123
-Delete http://localhost:5241/{(id)}
+@id=79c9e9da-d630-4d21-bac8-7223fb66f79b
+
+DELETE http://localhost:5286/breakfasts/{{id}}

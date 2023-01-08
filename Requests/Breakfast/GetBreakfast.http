@@ -1,18 +1,3 @@
-@id=123
-GET http://localhost:5241/breakfasts/{(id)}
-Content-Type: application/json
-{
-    "name": "Vegan Sunshine",
-    "description": "Vegan everything! Join us for a healthy breakfast..",
-    "startDateTime": "2022-04-08T08:00:00",
-    "endDateTime": "2022-04-08T11:00:00",
-    "savory": [
-        "Oatmeal",
-        "Avocado Toast",
-        "Omelette",
-        "Salad"
-    ],
-    "Sweet": [
-        "Cookie"
-    ]
-}
+@id=79c9e9da-d630-4d21-bac8-7223fb66f79b
+
+GET http://localhost:5286/breakfasts/{{id}}

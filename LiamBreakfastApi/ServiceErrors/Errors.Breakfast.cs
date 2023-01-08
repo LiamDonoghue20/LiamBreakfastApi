@@ -6,6 +6,7 @@ public static class Errors
 {
     public static class Breakfast
     {
+        //how each different error is reported
         public static Error InvalidName => Error.Validation(
             code: "Breakfast.InvalidName",
             description: $"Breakfast name must be between {Models.Breakfast.MinNameLength} " + 
