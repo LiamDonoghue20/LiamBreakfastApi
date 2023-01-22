@@ -50,6 +50,7 @@ namespace LiamBreakfastApi.Controllers
  
         }
 
+ 
         [HttpPut("{id:guid}")]
         public IActionResult UpsertBreakfast(Guid id, UpsertBreakfastRequest request)
         {
@@ -66,7 +67,7 @@ namespace LiamBreakfastApi.Controllers
         ErrorOr<UpsertedBreakfast> upsertBreakfastResult = _breakfastService.UpsertBreakfast(breakfast);
         
         return upsertBreakfastResult.Match(
-            //if it was successful, if its a new breakfast, call method to create breakfast
+            //if its a new breakfast, call method to create breakfast
             //otherwise if its updating a current breakfast, return no content
             upserted => upserted.IsNewlyCreated ? CreatedAtGetBreakfast(breakfast) : NoContent(),
             //if return an error, pass to problem method

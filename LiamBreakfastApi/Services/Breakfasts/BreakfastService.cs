@@ -30,6 +30,8 @@ public class BreakfastService : IBreakfastService
 
         return Errors.Breakfast.NotFound;
     }
+
+
     //update breakfast
     public ErrorOr<UpsertedBreakfast> UpsertBreakfast(Breakfast breakfast)
     {
